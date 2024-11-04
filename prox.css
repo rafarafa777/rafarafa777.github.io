@@ -1,0 +1,51 @@
+body {
+    background-color: #ff00dd;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color:#802573(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.foto-item p {
+    font-size: 24px;
+    color: #000000;
+    margin-top: 14px;
+}
+.foto-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 5px;
+ 
+}
+.foto {
+    display: flex;
+    gap: 10px;
+}
+.botao {
+    background: linear-gradient(135deg, #ff69b4, #ff1493); /* Gradiente rosa */
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px; /* Botão arredondado */
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(255, 20, 147, 0.3); /* Sombra suave */
+    transition: transform 0.2s, box-shadow 0.2s; /* Animação ao passar o mouse */
+}
+.botao {
+    transform: scale(1.05); /* Aumenta ligeiramente ao passar o mouse */
+    box-shadow: 0 6px 15px rgba(255, 20, 147, 0.4);
+}
+.botao {
+    transform: scale(0.98); /* Efeito de clique */
+}

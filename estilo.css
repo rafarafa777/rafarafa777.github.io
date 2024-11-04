@@ -1,0 +1,56 @@
+/* Reseta o estilo padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff00dd;
+    color: black;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+/* Estilo da div que contém as fotos */
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cada item de foto */
+.foto-item {
+    text-align: center;
+    margin: 0 10px;
+}
+
+/* Imagem dentro da seção de foto */
+.foto-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.foto-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Texto de descrição das imagens */
+.foto-item p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+}
